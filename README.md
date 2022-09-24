@@ -95,18 +95,22 @@ Output (Shape after creating bag of words using TF-IDF): ((51797, 7670),
 (22199,7670)) 
 
 ## MODEL SCORES 
-Model 1: Multinomial Naive Bayes
+### Model 1: Multinomial Naive Bayes
+
 Accuracy score: 0.6447137258435065 
 Weighted F1 score: 0.6339980772017713 
 
-Model 2: Logistic Regression
+### Model 2: Logistic Regression
+
 Accuracy score: 0.6965629082391098 
 Weighted F1 score: 0.6930624787458346 
 
-Model 3: Decision Tree
+### Model 3: Decision Tree
+
 Accuracy score: 0.7626019190053606 
 Weighted F1 score: 0.7622672223768574 
 
-Model 4: Random Forest
+### Model 4: Random Forest
+
 Accuracy score: 0.857741339699864 
 Weighted F1 score: 0.8577394763372356
