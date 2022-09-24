@@ -9,7 +9,7 @@ message's sentiment about the topic.
 
 ## Dataset
 
-![Link](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis) 
+[Dataset Link on Kaggle](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis) 
 
 - The dataset contains 74682 rows and 4 columns. 
 - I have renamed the dataset’s column to {0:’Tweet_ID’, 1:’Topic’, 
