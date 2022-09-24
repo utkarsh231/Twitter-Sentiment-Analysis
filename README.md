@@ -97,8 +97,8 @@ Output (Shape after creating bag of words using TF-IDF): ((51797, 7670),
 ## MODEL SCORES 
 ### Model 1: Multinomial Naive Bayes
 
-Accuracy score: 0.6447137258435065 
-Weighted F1 score: 0.6339980772017713 
+-Accuracy score: 0.6447137258435065 
+-Weighted F1 score: 0.6339980772017713 
 
 ### Model 2: Logistic Regression
 
