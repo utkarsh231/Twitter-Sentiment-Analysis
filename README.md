@@ -53,10 +53,10 @@ After removing whitespaces, the graph is:
 In this section, the main task is to clean the ‘Tweet’ feature in order to extract 
 important information from it using regular expressions. 
 
-Removing Usernames 
-User mentions start with ‘@’. We will replace all the words that start with the ‘@’ symbol followed by alphanumeric characters until whitespace with whitespace. 
-
-Removing Hashtags 
+ Removing Usernames
+ User mentions start with ‘@’. We will replace all the words that start with the ‘@’ symbol followed by alphanumeric characters until whitespace with whitespace.
+ 
+Removing Hashtags
 Tweets contain ‘#’ to better classify the content. We will replace the hashtags with whitespaces. 
 
 Removing Contractions
@@ -68,7 +68,6 @@ Removing Hyperlinks
 Hyperlinks or URLs starting with ‘http’ followed by alphanumeric characters will be 
 removed from the text. 
 
-![image](https://user-images.githubusercontent.com/57147530/192115444-cbadc785-bb1e-475e-81b0-aa554e58559f.png)
 
 
 ## WORDCLOUD
