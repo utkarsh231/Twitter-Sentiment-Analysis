@@ -53,18 +53,22 @@ After removing whitespaces, the graph is:
 In this section, the main task is to clean the ‘Tweet’ feature in order to extract 
 important information from it using regular expressions. 
 
- Removing Usernames
+ ### Removing Usernames
+ 
  User mentions start with ‘@’. We will replace all the words that start with the ‘@’ symbol followed by alphanumeric characters until whitespace with whitespace.
  
-Removing Hashtags
+### Removing Hashtags
+
 Tweets contain ‘#’ to better classify the content. We will replace the hashtags with whitespaces. 
 
-Removing Contractions
+### Removing Contractions
+
 “Don’t” or “could’ve” are examples of contractions. Such contractions will be 
 replaced with the whole word. Eg: “Don’t” will become “Do not” and “could’ve” will 
 become “could have”. 
 
-Removing Hyperlinks
+### Removing Hyperlinks
+
 Hyperlinks or URLs starting with ‘http’ followed by alphanumeric characters will be 
 removed from the text. 
 
